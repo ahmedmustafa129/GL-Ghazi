@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.menu{
+    width: 80%;
+    display: inline;
+}
+ul li{
+    list-style: none;
+}
+.main{
+    background-color: #316dc3;
+    padding: 30px;
+}
+.icon{
+    float: left;
+}
+.text{
+    float: left;
+    margin-left: 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.topbutton{
+    float: right;
+}
+.topbutton a {
+    color: white;
+    border: 1px solid white;
+    padding: 8px;
+}
+.clear{
+    clear: both;
+}
+/* yha khtam top or nav start*/
+
+ul li{
+    float: left;;
+    display: block;
+    margin-left: 3000px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: wheat;
+}
+ul li a{
+    display: block;
+}
+ul li a:hover{
+    background-color: chartreuse;
+    border-radius: 5px;
+}
+ul li  ul li{
+    display:none;    
+}
+ul li:hover ul li {
+    display: contents;
+}
+.logo{
+    float: left;
+    width: 20%;
+}
+.menu{
+    float: right;
+}
+.clear{
+    clear: both; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
